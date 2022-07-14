@@ -68,4 +68,3 @@ Snow插件推荐设置，观感较好。
 
 [博客原址](https://syblog.repl.co/index.php/archives/3/)
 
-本人仍在小白阶段，这是[我的博客](https://syblog.repl.co/)，欢迎交流！
