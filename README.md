@@ -59,6 +59,18 @@
 2. 按`F12`打开控制台
 3. 找到`SESSDATA`复制即可![img](https://i0.hdslb.com/bfs/album/4b212e3692523c9baa9bfb4415b89c68fff44557.png)
 
+### 解决B站防盗链（403）
+
+> B站开启了防盗链，利用的是HTTP的Referer属性做判断。如果Referer是他白名单之外的网站，就会返回403
+
+#### 全站图片使用
+
+在外观-设置外观里找到`自定义head标签内位置内容`，设置如下标志，那么全站资源引用都不会携带referrer
+
+```
+<meta name="referrer" content="no-referrer">
+```
+
 [具体配置点此查看](https://github.com/xlzy520/picgo-plugin-bilibili.git)
 
 PS. 自行启用插件和主题
