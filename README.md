@@ -1,3 +1,8 @@
+# 由于Replit政策变动，该方法现已失效。
+
+---
+
+
 # Typecho-Replit
 
 在Replit部署Typecho博客 + [Butterfly主题移植](https://blog.wehaox.com/archives/typecho-butterfly.html#cl-3 )
